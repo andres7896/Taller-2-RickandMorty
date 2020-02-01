@@ -1,0 +1,150 @@
+*,html{
+    font-family: 'Raleway', sans-serif, Arial;
+    margin: auto 0;
+}
+
+.cabecera{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #262626;
+    padding: 15px;
+    color: white;
+    font-size: 10px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.mensaje{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mensaje p{
+    max-width: 250px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    opacity: 0.8;
+    color: white;
+    background-color: rgb(80, 241, 55);
+    border: rgb(37, 214, 10) 1px solid;
+}
+
+#buscador{
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 250px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.btnBuscar{
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 70px;
+    background-color: #35F118;
+    padding: 7px;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 11px;
+}
+
+.btnBuscar:hover{
+    background-color: rgb(89, 250, 64);
+    color: white;
+}
+
+@media(max-width:1000px){
+    #buscador{
+        margin-top: 10px;
+    }
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contenedor .personaje{
+    width: 100%;
+    max-width: 300px;
+    height: 590px;
+    border: gray 1px solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contenedor .personaje img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.contenedor .personaje h3{
+    padding: 15px;
+}
+
+.contenedor .personaje h4{
+    padding: 15px;
+    color: blue;
+}
+
+.contenedor .personaje p{
+    padding: 15px;
+}
+
+#paginacion{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.btnNext {
+    width: 100px;
+    height: 30px;
+    background-color: #35F118;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+
+.btnAfter {
+    width: 100px;
+    height: 30px;
+    background-color: #35F118;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(89, 250, 64);
+    color: white;
+}
+
+footer{
+    margin: auto 0;
+    background-color: #262626;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+}
